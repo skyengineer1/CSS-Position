@@ -1,0 +1,44 @@
+body {
+    background-color: beige;
+}
+
+div.static {
+    border: 3px solid green;
+    position: static;
+}
+
+div.relative {
+    border: 3px solid green;
+    position: relative;
+    left: 100px;
+}
+
+div.fixed {
+    border: 3px solid green;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+div.rela {
+    position: relative;
+    border: 3px solid green;
+    width: 500px;
+    height: 200px;
+}
+
+div.absolute {
+    position: absolute;
+    border: 3px solid green;
+    width: 100px;
+    right: 5px;
+    bottom: 30px;
+}
+
+div.sticky {
+    border: 2px solid green;
+    background-color: greenyellow;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+}
